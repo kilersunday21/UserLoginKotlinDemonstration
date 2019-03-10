@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
             var username = userEt.text.toString()
             var password = passEt.text.toString()
-
+            //Toast.makeText(this,"Invalid Username/Password",Toast.LENGTH_SHORT)
             if (username == "anil" && password == "anil")
             {
                 val intent = Intent(this@MainActivity, Main2Activity::class.java)
@@ -37,8 +37,7 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //Toast.makeText(this,"Invalid Username/Password",Toast.LENGTH_SHORT)
-                errorTv.text = "Invalid Username or Password"
+                Toast.makeText(this,"Invalid username or password", Toast.LENGTH_SHORT).show()
             }
         }
 

@@ -4,4 +4,5 @@
     <string name="login">Login</string>
     <string name="reset">Reset</string>
     <string name="user_login">User Login</string>
+    <string name="error_msg">Invalid Username or Password</string>
 </resources>
